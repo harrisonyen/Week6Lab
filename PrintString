@@ -1,8 +1,15 @@
 str = input("Enter String:")
-n = int(input("Enter Number:"))
+n = int(input("Enter a Non-Zero Number:"))
 
-if n>1:
+if n>0:
       for x in range(0, n):
           print(str)
-else:
-    print("Number is negative")
+if n == 0:
+    print("Number is zero")
+
+
+
+
+## If n is negative, print out the number of times, but the word is reversed.
+## To print String Backwards txt = "Hello World" [::-1]
+## Absolute value of n == abs(n)
