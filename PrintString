@@ -1,0 +1,8 @@
+str = input("Enter String:")
+n = INT(input("Enter Number:"))
+
+if n>1:
+      for x in range(0, n):
+          print(str)
+else:
+    print("Number is negative")
